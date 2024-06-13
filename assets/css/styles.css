@@ -1,31 +1,31 @@
-/*  display property */
-/* .text {
-    color: #38ed38
-}
+/* box model */
 
-.important {
-    color: #f11;
-    background-color: #f0f406;;
-}
+/*  1 - every element on a web page comes in the shape of a BOX */
 
-.block {
-    background-color: #2bbde1;
-    color: #f99;
+
+/* to have the total size of an element you need to add all these properties together to get the box model */
+/* .box {
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid;
 } */
 
-
-.block-block {
-  background-color: #f77;
+.parent {
+    width: 500px;
+    height: 400px;
+    background-color: #e36060;
 }
 
-.inline-inline {
-    background-color: #6aea07;
+.child {
+    width: 200px;
+    height: 200px;
+    background-color: #e9e46c;
+    /* overflow: scroll; */
+    /* overflow-y: scroll; */
 }
 
-.block-inline {
-    background-color: #b312cc;
-}
-
-.inline-block {
-    background-color: #ee0c2e;
+.content {
+    width: 800px;
 }
